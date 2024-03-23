@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("Build & Test"){
+        stage("Build and Test"){
             steps{
                 sh "docker build . -t node-app:latest"
             }
