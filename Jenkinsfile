@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent { label "dev"}
     stages{
         stage("Build and Test"){
             steps{
